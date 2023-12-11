@@ -3,8 +3,8 @@ curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
 echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
 http://nginx.org/packages/debian `lsb_release -cs` nginx" \
     | sudo tee /etc/apt/sources.list.d/nginx.list
-    sudo apt update
-sudo apt install nginx
+sudo apt update
+sudo apt install nginx -y
 sudo nginx -v
 sudo systemctl start nginx
 sudo apt install snapd -y
