@@ -15,7 +15,6 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 certbot --version
 sudo certbot certonly --nginx --agree-tos --no-eff-email --staple-ocsp --preferred-challenges http
 sudo openssl dhparam -dsaparam -out /etc/ssl/certs/dhparam.pem 4096
-sudo systemctl list-timers
 sudo certbot renew --dry-run
 ls /etc/matrix-synapse/conf.d
 rm /etc/matrix-synapse/conf.d/database.yaml
