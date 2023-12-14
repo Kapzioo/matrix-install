@@ -1,4 +1,4 @@
-turn_uris: [ "turn:turn.youareidiot.pl?transport=udp", "turn:turn.youareidiot.pl?transport=tcp" ]
+turn_uris: [ "turn:turn.kutang-klan.pl?transport=udp", "turn:turn.kutang-klan.pl?transport=tcp" ]
 turn_shared_secret: 'OcKBLuwpE6IyMoi9mPccjVFaL7PwJRFUuKh5EvGBVcvB7tunevQ3cpP74we8cF4XSN8lFNrgqxJeyItKOcoOABwjdTNChmJeB4WMrsLV2JNsPs3U61s9rRijj3OxBpZux0CGft8CiyNDweVLqqxNaYphNesoAT4y51RxLVdAP2ros9S3jRR7IYRccJVRMpqTa8USBuBqAkzRRPLbFOHsC6QHur2oiySuW6sqs4YkH65N8kReSzgi7Fq2Zll3RO5e'
 turn_user_lifetime: 86400000
 turn_allow_guests: True
